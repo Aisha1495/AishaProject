@@ -1,18 +1,21 @@
 package Project;
 
-import java.util.List;
-
 public class project111 {
 	public static void main(String[] arg) {
 
-	List<Integer> numbers = List.of(1,2,22,2);
+	int [] numbers = new int [] { 1,2,22,2};
+	int MaxNum=numbers[0];
+	for(int i =1; i < numbers.length; i++) {
+		if(numbers[i]>MaxNum) {
 	
-	int largesNum =Integer.MIN_VALUE;
-	for(int number: numbers) {
-		if (number>largesNum) {
-			largesNum=number;
-		}
-	}
-System.out.println("The Largest Number is: "+ largesNum);
+	MaxNum=numbers[i];
+	
 }
+	}
+	System.out.println("The given Number is : ");
+	for (int i = 0; i < numbers.length; i++) {
+		System.out.println(numbers[i]);
+	}
+	System.out.println("The Largest Number is : "+MaxNum);
+	}
 }
