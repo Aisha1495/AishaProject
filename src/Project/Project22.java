@@ -9,10 +9,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 
-/**
- * @author Lenovo
- *
- */
 public class Project22 {
 
 	public static void main(String[] args) {
@@ -26,7 +22,7 @@ public class Project22 {
 		 for(String name : names) {
 			 if (seeNames.contains(name)) {
 				 System.out.println(name+ " is repeating name.");
-		 }else {
+		 } else {
 		 seeNames.add(name);
 	}
 	}
