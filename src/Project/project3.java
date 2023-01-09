@@ -17,9 +17,9 @@ do {
 while (result< 0 || result > 100);
 System.out.println("Correct "+result);
 
-//	
-//	while (result> 0 || result < 100);
-//System.out.println("Wrong "+result);
+	
+	while (result> 0 || result < 100);
+System.out.println("Wrong "+result);
 	
 }
 }
