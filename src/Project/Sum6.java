@@ -21,8 +21,7 @@ public class Sum6 {
 		for (int i = 0; i < numbers.size(); i++) {
 			for (int j = i + 1; j < numbers.size(); j++) {
 				if (numbers.get(i) + numbers.get(j) == 6) {
-					System.out
-							.println("Found two numbers that sum to 6 : " + numbers.get(i) + " and " + numbers.get(j));
+					System.out.println("Found two numbers that sum to 6 : " + numbers.get(i) + " and " + numbers.get(j));
 				}
 			}
 		}

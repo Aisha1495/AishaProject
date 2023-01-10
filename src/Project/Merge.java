@@ -7,6 +7,9 @@ public class Merge {
 	public static void main(String[] args) {
 
 		// merge two list in order
+		//List1={3,4,6,7,9}
+		//List2={1,2,5,8,10}
+		
 		ArrayList<Integer> arr = new ArrayList<Integer>();
 		arr.add(3);
 		arr.add(4);
