@@ -1,6 +1,6 @@
 package Project;
 
-public class project5 {
+public class Dublicate {
 
 	public static void main(String[] args) {
 
@@ -10,7 +10,9 @@ public class project5 {
 
 			for (int j = i + 1; j < array.length; j++) {
 				if ((array[i] == array[j]) && (i != j)) {
-					System.out.println("repeted numbers are :" + array[j]);
+					
+					System.out.println(array[j]);
+					//System.out.println("repeted numbers are :" + array[j]);
 					// System.out.println( array[i] +" is repeated "+array[j]+" times ");
 
 				}

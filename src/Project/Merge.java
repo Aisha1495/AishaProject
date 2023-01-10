@@ -2,7 +2,7 @@ package Project;
 
 import java.util.ArrayList;
 
-public class project6 {
+public class Merge {
 
 	public static void main(String[] args) {
 
@@ -34,3 +34,5 @@ public class project6 {
 	}
 
 }
+
+

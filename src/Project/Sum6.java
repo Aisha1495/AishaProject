@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class project4 {
+public class Sum6 {
 	public static void main(String[] args) {
 		// q4 find two number that sum to 6 from array list
 

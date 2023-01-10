@@ -2,7 +2,7 @@ package Project;
 
 import java.util.Scanner;
 
-public class project3 {
+public class LimitNum {
 	
 	public static void main(String[] arg) {
 

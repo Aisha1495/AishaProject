@@ -1,6 +1,6 @@
 package Project;
 
-public class project111 {
+public class LargNum {
 	public static void main(String[] arg) {
 
 	int [] numbers = new int [] { 1,2,22,2};
