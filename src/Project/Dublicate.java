@@ -13,7 +13,7 @@ public class Dublicate {
 		
 		
 		//other answer :
-		int[] array = new int[] { 0, 0, 1, 1, 2, 2, 3, 3, 4, 4 };
+		int[] array = new int[] { 0, 1, 1, 2, 3, 3, 4 };
 		Map<Integer, Integer> map = new LinkedHashMap<Integer , Integer>();
 		
 		for (int i=0; i < array.length; i++) {
@@ -40,7 +40,8 @@ public class Dublicate {
 				}
 			}
 					
-			System.out.println("Duplicated numbers : "+ Arrays.toString(duplicate.toArray()));
+			//System.out.println("Duplicated numbers : "+ Arrays.toString(duplicate.toArray()));
+			System.out.println("Non Duplicated number: "+Arrays.toString(noDuplicate.toArray()));
 			}
 }
 
