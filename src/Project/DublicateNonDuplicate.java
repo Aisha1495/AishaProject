@@ -7,7 +7,7 @@ import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class Dublicate {
+public class DublicateNonDuplicate {
 
 	public static void main(String[] args) {
 		
@@ -40,7 +40,7 @@ public class Dublicate {
 				}
 			}
 					
-			//System.out.println("Duplicated numbers : "+ Arrays.toString(duplicate.toArray()));
+			System.out.println("Duplicated numbers : "+ Arrays.toString(duplicate.toArray()));
 			System.out.println("Non Duplicated number: "+Arrays.toString(noDuplicate.toArray()));
 			}
 }
