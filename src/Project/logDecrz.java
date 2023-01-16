@@ -14,31 +14,25 @@ import java.util.SortedMap;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-
-
 public class logDecrz {
-	//Problem: Given an array of integers, write a function to find the longest decreasing subarray.
-	//Input: [1, 2, 3, 4, 5, 4, 3, 2, 1]
-	//Output: [5, 4, 3, 2, 1]
+	// Problem: Given an array of integers, write a function to find the longest
+	// decreasing subarray.
+	// Input: [1, 2, 3, 4, 5, 4, 3, 2, 1]
+	// Output: [5, 4, 3, 2, 1]
 
 	public static void main(String[] args) {
-		
-		
-		ArrayList<Integer> nums =  new ArrayList <> (Arrays.asList(1, 2, 3, 4, 5, 4, 3, 2, 1));
-		
-	System.out.println("All Numbers  : "+ nums);
-	
-		Set<Integer>set = new LinkedHashSet<>();
+
+		ArrayList<Integer> nums = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 4, 3, 2, 1));
+
+		System.out.println("All Numbers  : " + nums);
+
+		Set<Integer> set = new LinkedHashSet<>();
 		set.addAll(nums);
 		nums.clear();
 		nums.addAll(set);
-		Collections.sort(nums,Collections.reverseOrder());
-		System.out.println("Numbers Without duplicated  : "+ nums);
-		
-	
-		}
-		
+		Collections.sort(nums, Collections.reverseOrder());
+		System.out.println("Numbers Without duplicated  : " + nums);
+
 	}
-	
 
-
+}
