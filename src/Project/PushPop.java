@@ -7,14 +7,14 @@ public class PushPop {
 	public static void main(String[] args) {
 // Design a stack in Java that supports push, pop, and get the middle element operations in O(1) time.
 
-		Stack<String> student = new Stack<>();
-		student.push("Ali");
-		student.push("Muna");
-		student.push("Ahmed");
-		student.push("Sara");
-		student.push("Salim");
-		System.out.println(student);
-		System.out.println("The Middle Name of Student is : "+ student.get(2));
+		Stack<String> Student = new Stack<>();
+		Student.push("Ali");
+		Student.push("Muna");
+		Student.push("Ahmed");
+		Student.push("Sara");
+		Student.push("Salim");
+		System.out.println(Student);
+		System.out.println("The Middle Name of Student is : "+ Student.get(2));
 		
 		System.out.println();
 		
