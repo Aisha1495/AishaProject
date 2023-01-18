@@ -25,7 +25,7 @@ public class IntegerStack {
 	}
 	public static void main(String[] args) {
 		int[]arr= {3,2,1,5,4,9,10};
-		System.out.print("\"The the second largest number is\" ");
+		System.out.print("\"The second largest number is\" ");
 		System.out.println(main(arr));
 	}
 }
